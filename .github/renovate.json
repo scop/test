@@ -9,11 +9,11 @@
       "matchDatasources": ["docker", "github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
       "minimumReleaseAge": "10 days",
       "internalChecksFilter": "strict"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/**", "quay.io/**"],
+      "minimumReleaseAge": null
     }
-    //,
-    //{
-    //  "matchUpdateTypes": ["digest", "lockFileMaintenance"],
-    //  "minimumReleaseAge": null
-    //}
   ]
 }
