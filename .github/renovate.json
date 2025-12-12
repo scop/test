@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "matchDataSources": ["github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
+      "matchDatasources": ["github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
       "minimumReleaseAge": "10 days",
       "internalChecksFilter": "strict"
     },
