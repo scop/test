@@ -5,11 +5,11 @@
     ":dependencyDashboard"
   ],
   "packageRules": [
-    {
-      "matchDatasources": ["docker", "github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
-      "minimumReleaseAge": "10 days",
-      "minimumReleaseAgeBehaviour": "timestamp-optional",
-      "internalChecksFilter": "strict"
-    }
+    //{
+    //  "matchDatasources": ["docker", "github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
+    //  "minimumReleaseAge": "10 days",
+    //  "minimumReleaseAgeBehaviour": "timestamp-optional",
+    //  "internalChecksFilter": "strict"
+    //}
   ]
 }
