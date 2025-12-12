@@ -1,0 +1,5 @@
+name: test
+
+services:
+  foo:
+    image: golang:1.25.0
