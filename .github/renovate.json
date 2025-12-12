@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>scop/common",
+    ":dependencyDashboard"
+  ],
+  "packageRules": [
+    {
+      "matchDataSources": ["github-releases", "github-tags", "gitlab-releases", "gitlab-tags", "go", "npm", "pypi"],
+      "minimumReleaseAge": "10 days",
+      "internalChecksFilter": "strict"
+    },
+    {
+      "matchUpdateTypes": ["digest", "lockFileMaintenance"],
+      "minimumReleaseAge": null
+    }
+  ]
+}
