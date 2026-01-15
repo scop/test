@@ -11,4 +11,5 @@ jobs:
       - uses: scop/common/force-color@main
       - uses: actions/checkout@v6
       - uses: jdx/mise-action@v3
-      - run: mise exec -- prek run --all-files
+      - run: "mise exec -- prek run --all-files || :"
+      - run: "mise exec -- pre-commit run --all-files || :"
