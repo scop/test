@@ -1,3 +1,4 @@
 [tools]
+dprint = "latest"
 pre-commit = "latest"
 prek = "latest"
