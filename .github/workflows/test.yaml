@@ -15,3 +15,4 @@ jobs:
       - run: "mise exec -- prek run --all-files || :"
       - run: "mise exec -- pre-commit run --all-files || :"
       - run: "mise exec -- rumdl check README.md || :"
+      - run: "mise exec -- shellcheck test.sh || :"
