@@ -17,3 +17,4 @@ jobs:
       - run: "mise exec -- rg test README.md || :"
       - run: "mise exec -- rumdl check README.md || :"
       - run: "mise exec -- shellcheck test.sh || :"
+      - run: "mise exec -- uv foo 2>&1 || :"
