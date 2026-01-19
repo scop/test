@@ -8,7 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      #- uses: scop/common/force-color@main
+      - uses: scop/common/force-color@main
       - uses: actions/checkout@v6
       - uses: jdx/mise-action@v3
       - run: "dprint check || :"
@@ -17,4 +17,4 @@ jobs:
       - run: "mise exec -- rg test README.md || :"
       - run: "mise exec -- rumdl check README.md || :"
       - run: "mise exec -- shellcheck test.sh || :"
-      - run: "mise exec -- env CLICOLOR_FORCE=1 uv foo 2>&1 || :"
+      - run: "mise exec -- uv foo 2>&1 || :"
