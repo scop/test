@@ -13,6 +13,7 @@ jobs:
           echo "GIT_CONFIG_PARAMETERS='color.ui=always'${GIT_CONFIG_PARAMETERS:+ $GIT_CONFIG_PARAMETERS}" >>"$GITHUB_ENV"
       - run: env
       - uses: actions/checkout@v6
+      - run: git status
       - uses: jdx/mise-action@v3
       - run: "dprint check || :"
       - run: "mise exec -- prek run --all-files || :"
