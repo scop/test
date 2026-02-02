@@ -4,4 +4,4 @@ services:
   foo:
     image: golang:1.25.4@sha256:698183780de28062f4ef46f82a79ec0ae69d2d22f7b160cf69f71ea8d98bf25d
   quay-io-test:
-    image: quay.io/coreos/etcd:v3.6.6@sha256:ada20feeed647cb390831e12d544ff33713db0f19fa3de6989024753b14ba3d1
+    image: quay.io/coreos/etcd:v3.6.7@sha256:6411837ab7d4603073adddf988818b2d253df26dc01dc4e4cb3713aab5b679d7
