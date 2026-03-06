@@ -1,0 +1,13 @@
+on:
+  tags:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      attestations: write
+    steps:
+      - uses: actions/attest@v4
+        with:
+          subject-path: README.md
