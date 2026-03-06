@@ -9,6 +9,7 @@ jobs:
       id-token: write
       attestations: write
     steps:
+      - uses: actions/checkout@v6
       - uses: actions/attest@v4
         with:
           subject-path: README.md
