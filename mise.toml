@@ -1,4 +1,5 @@
 [tools]
+aqua = "latest"
 dprint = "latest"
 pre-commit = "latest"
 prek = "latest"
