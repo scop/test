@@ -31,3 +31,5 @@ jobs:
           echo hello > world
           sha256sum world
           sha256sum --help
+          shasum -a 256 world
+          shasum --help
