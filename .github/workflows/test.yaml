@@ -29,4 +29,5 @@ jobs:
     steps:
       - run: |
           echo hello > world
-          sha256sum -a world
+          sha256sum world
+          sha256sum --help
