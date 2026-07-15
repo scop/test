@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>scop/common#08f8a44771add9537499e9325dca0fe1479c2480",
+    "github>scop/common#c213713709c7b2350581ebc2dd0d3f5997002444",
     ":dependencyDashboard"
   ],
   "packageRules": [
