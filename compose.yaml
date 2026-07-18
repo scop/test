@@ -2,6 +2,6 @@ name: test
 
 services:
   foo:
-    image: golang:1.25.4@sha256:698183780de28062f4ef46f82a79ec0ae69d2d22f7b160cf69f71ea8d98bf25d
+    image: golang:1.26.4@sha256:f96cc555eb8db430159a3aa6797cd5bae561945b7b0fe7d0e284c63a3b291609
   quay-io-test:
     image: quay.io/coreos/etcd:v3.6.6@sha256:ada20feeed647cb390831e12d544ff33713db0f19fa3de6989024753b14ba3d1
