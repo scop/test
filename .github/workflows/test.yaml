@@ -8,7 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: scop/common/force-color@main
+      #- uses: scop/common/force-color@main
       - run: |
           echo "GIT_CONFIG_PARAMETERS='color.ui=always'${GIT_CONFIG_PARAMETERS:+ $GIT_CONFIG_PARAMETERS}" >>"$GITHUB_ENV"
       - run: env
