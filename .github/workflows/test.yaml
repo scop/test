@@ -14,7 +14,7 @@ jobs:
       - run: env
       - uses: actions/checkout@v7
       - run: git status
-      - uses: jdx/mise-action@v4
+      - uses: jdx/mise-action@7a4e45a543138629540c9a1616d08632b893e492 # v5
       - run: "dprint check || :"
       - run: "mise exec -- prek run --all-files || :"
       - run: "mise exec -- pre-commit run --all-files || :"
