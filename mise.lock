@@ -32,7 +32,7 @@ url = "https://github.com/dprint/dprint/releases/download/0.55.2/dprint-x86_64-u
 url_api = "https://api.github.com/repos/dprint/dprint/releases/assets/477041351"
 
 [[tools.pre-commit]]
-version = "4.6.0"
+version = "4.7.0"
 backend = "aqua:pre-commit/pre-commit"
 
 [tools.pre-commit."platforms.linux-x64"]
