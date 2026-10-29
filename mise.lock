@@ -106,17 +106,17 @@ url = "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellche
 url_api = "https://api.github.com/repos/koalaman/shellcheck/releases/assets/279056942"
 
 [[tools.uv]]
-version = "0.11.30"
+version = "0.13.5"
 backend = "aqua:astral-sh/uv"
 
 [tools.uv."platforms.linux-x64"]
-checksum = "sha256:023fdd3b59fccfb67b365c69fb34182aaaed1d685d367a57571e3c1468a4c70c"
-url = "https://github.com/astral-sh/uv/releases/download/0.11.30/uv-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/483891981"
+checksum = "sha256:f68d291c75783122dad58ab77def0e13f3233f358731db5d6d7e8715603b928f"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664336023"
 provenance = "github-attestations"
 
 [tools.uv."platforms.linux-x64-musl"]
-checksum = "sha256:023fdd3b59fccfb67b365c69fb34182aaaed1d685d367a57571e3c1468a4c70c"
-url = "https://github.com/astral-sh/uv/releases/download/0.11.30/uv-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/483891981"
+checksum = "sha256:57ef9d9ccb01fb1bd998df995b0dd221b52f7d7841fbea93f2d4463bf61fb7a9"
+url = "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/astral-sh/uv/releases/assets/664336027"
 provenance = "github-attestations"
