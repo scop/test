@@ -76,19 +76,19 @@ url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15
 url_api = "https://api.github.com/repos/BurntSushi/ripgrep/releases/assets/478120097"
 
 [[tools.rumdl]]
-version = "0.2.37"
+version = "0.3.1"
 backend = "aqua:rvben/rumdl"
 
 [tools.rumdl."platforms.linux-x64"]
-checksum = "sha256:0999d31c6f1429f0b3b5ed86d3ebb2768e5b4a16b373a51a41a7af2d7eb43b7c"
-url = "https://github.com/rvben/rumdl/releases/download/v0.2.37/rumdl-v0.2.37-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/rvben/rumdl/releases/assets/482465203"
+checksum = "sha256:068dc9cbe3377af0adca8580d135e8fa3a5a6ce127ada6849fd47ee13f86b4d0"
+url = "https://github.com/rvben/rumdl/releases/download/v0.3.1/rumdl-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/rvben/rumdl/releases/assets/682862209"
 provenance = "github-attestations"
 
 [tools.rumdl."platforms.linux-x64-musl"]
-checksum = "sha256:0999d31c6f1429f0b3b5ed86d3ebb2768e5b4a16b373a51a41a7af2d7eb43b7c"
-url = "https://github.com/rvben/rumdl/releases/download/v0.2.37/rumdl-v0.2.37-x86_64-unknown-linux-musl.tar.gz"
-url_api = "https://api.github.com/repos/rvben/rumdl/releases/assets/482465203"
+checksum = "sha256:81a389a894f3e22233b9e94f385d784744362ee7ed3fffde532ea6f1c9b392fd"
+url = "https://github.com/rvben/rumdl/releases/download/v0.3.1/rumdl-v0.3.1-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/rvben/rumdl/releases/assets/682862201"
 provenance = "github-attestations"
 
 [[tools.shellcheck]]
