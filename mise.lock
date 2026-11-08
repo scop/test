@@ -32,18 +32,20 @@ url = "https://github.com/dprint/dprint/releases/download/0.55.2/dprint-x86_64-u
 url_api = "https://api.github.com/repos/dprint/dprint/releases/assets/477041351"
 
 [[tools.pre-commit]]
-version = "4.6.0"
+version = "4.7.0"
 backend = "aqua:pre-commit/pre-commit"
 
 [tools.pre-commit."platforms.linux-x64"]
-checksum = "sha256:ea8a0c84902e48c1875558f2f362ed8476773aa5fc8c16c5d8f2acc2a2830a65"
-url = "https://github.com/pre-commit/pre-commit/releases/download/v4.6.0/pre-commit-4.6.0.pyz"
-url_api = "https://api.github.com/repos/pre-commit/pre-commit/releases/assets/401888770"
+checksum = "sha256:393488513aed286d7a5a978a1fe79b2f5a8802927242a2d241ff10c1a8e8c885"
+checksum_source = "mise-versions"
+url = "https://github.com/pre-commit/pre-commit/releases/download/v4.7.0/pre-commit-4.7.0.pyz"
+url_api = "https://api.github.com/repos/pre-commit/pre-commit/releases/assets/637459099"
 
 [tools.pre-commit."platforms.linux-x64-musl"]
-checksum = "sha256:ea8a0c84902e48c1875558f2f362ed8476773aa5fc8c16c5d8f2acc2a2830a65"
-url = "https://github.com/pre-commit/pre-commit/releases/download/v4.6.0/pre-commit-4.6.0.pyz"
-url_api = "https://api.github.com/repos/pre-commit/pre-commit/releases/assets/401888770"
+checksum = "sha256:393488513aed286d7a5a978a1fe79b2f5a8802927242a2d241ff10c1a8e8c885"
+checksum_source = "mise-versions"
+url = "https://github.com/pre-commit/pre-commit/releases/download/v4.7.0/pre-commit-4.7.0.pyz"
+url_api = "https://api.github.com/repos/pre-commit/pre-commit/releases/assets/637459099"
 
 [[tools.prek]]
 version = "0.4.10"
